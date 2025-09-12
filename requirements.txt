@@ -1,0 +1,6 @@
+# Optional but recommended for best terminal UI
+rich>=13.0
+# Optional fallback progress bar (used if rich is not installed)
+tqdm>=4.0
+
+pathlib2
