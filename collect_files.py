@@ -383,7 +383,7 @@ def main():
         if not p.exists():
             print(f"Warning: input {p} does not exist and will be skipped.", file=sys.stderr)
 
-    out_path = prepare_output_path(args.output)
+    out_path = prepare_output_path(args.outputs)
     append_mode = args.append and out_path.exists()
 
     discover_opts = {

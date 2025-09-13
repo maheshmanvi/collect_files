@@ -74,3 +74,4 @@ outputs/
 # Personal or rough work files
 # ============================
 temp/
+/output/current_refactored_codes.txt
